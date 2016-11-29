@@ -35,10 +35,3 @@ function showToTop(){
 }
 $(window).scroll(showToTop);
 $(document).ready(showToTop);
-
-//Contact Form mail
-
-$("#button-yellow").on("click", function() {
-
-    aler("Thanks for the email!");
-});

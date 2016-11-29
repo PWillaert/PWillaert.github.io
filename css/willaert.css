@@ -64,9 +64,6 @@ table,tr,td{
 
 }
 
-.aanbod{
-    text-align: center;
-}
 .terug{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}
 .terug:hover{opacity:.3}
 .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
@@ -211,16 +208,7 @@ img::-moz-selection{background:0 0}
     background: #fff;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
-  background-size: cover;
-  height:100%;
-}
-
-#feedback-page{
-	text-align:center;
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 #form-main{
 	width:100%;
@@ -278,36 +266,36 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 
 /* Icons ---------------------------------- */
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../img/ico/user.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../img/ico/user.png);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../img/ico/mail.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../img/ico/mail.png);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(../img/ico/potlood.png);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -348,33 +336,4 @@ input:focus, textarea:focus {
 	color: #f6bf01;
 }
 	
-.submit:hover {
-	color: #f6bf01;
-}
-	
-.ease {
-	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
-}
 
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
-}
-
-@media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-}
